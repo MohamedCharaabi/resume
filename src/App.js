@@ -17,18 +17,23 @@ function App() {
         <Grid item xs={12} sm={12} md={4} lg={3} >
           <Profile />
         </Grid>
-        <Grid item xs style={{ background: "#FFF" }}>
+        <Grid item xs >
           <Router>
             <Header />
-            <Switch>
 
-              <Route path="/portfolio">
-                <Portfolio />
-              </Route>
-              <Route path="/">
-                <Resume />
-              </Route>
-            </Switch>
+            <div className="main-content container_shadow">
+              <Switch>
+
+                <Route path="/portfolio">
+                  <Portfolio />
+                </Route>
+                <Route path="/">
+                  <Resume />
+                </Route>
+              </Switch>
+
+
+            </div>
 
           </Router>
 

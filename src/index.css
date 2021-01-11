@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   overflow-x: hidden;
-  background: url("./assets/images/bg.PNG");
+  background: url("./assets/images/bg.jpg");
   overflow-y: scroll;
 }
 

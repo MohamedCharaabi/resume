@@ -1,0 +1,68 @@
+/* margin and padding */
+.top_30 {
+  margin-top: 30px !important;
+}
+
+.mb_30 {
+  margin-bottom: 30px !important;
+}
+
+.p_30 {
+  padding: 30px !important;
+}
+
+.pb_45 {
+  padding-bottom: 45px !important;
+}
+
+/* End margin and padding  */
+
+.section_title {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+}
+
+.section_title .section_title_text {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+.section_title span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
+}
+
+/* body section */
+.aboutme_text {
+  color: darkslategray !important;
+  font: smaller !important;
+  line-height: 22px !important;
+  white-space: pre-line !important;
+}
+/* end of about section */
+
+/* Timeline section */
+.resume_timeline .timeline_content .timeline_title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.resume_timeline .timeline_content .timeline_date {
+  color: darkslategray;
+}
+
+.resume_timeline .timeline_content .timeline_description {
+  color: gray;
+  font-size: small;
+  margin-top: 6px;
+}
+
+/* end of timeline section */
