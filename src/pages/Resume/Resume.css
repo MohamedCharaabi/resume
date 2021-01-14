@@ -15,6 +15,14 @@
   padding-bottom: 45px !important;
 }
 
+.pt_45{
+  padding-top: 45px !important;
+}
+
+.p_50{
+  padding: 50px !important;
+}
+
 /* End margin and padding  */
 
 .section_title {
@@ -66,3 +74,87 @@
 }
 
 /* end of timeline section */
+
+/* Services */
+
+.service{
+height: 100%;
+text-align: center;
+}
+
+
+.service .service_title{
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 35px !important;
+  text-align: center;
+}
+
+
+.service .service_description{
+color: #989898 !important;
+border-color: var(--main-color) !important;
+margin-right: 5px !important;
+text-align: center ;
+}
+
+.section_icon > .MuiSvgIcon-root{
+  font-size: 46px !important;
+  margin-left: 0 !important;
+  font-weight: 300 !important;
+  color: darkslategray !important;
+}
+
+/* End Of services */
+
+
+
+/* skills */
+.skill{
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  min-height: 186px;
+  height: 100%;
+}
+
+.skill .skill_title{
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 35px !important;
+}
+
+.skill .skill_decription{
+  display: flex;
+  align-items: center;
+  color: #989898 !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+}
+
+.skill .skill_decription .timeline_dot{
+  color: black !important;
+border-color: var(--main-color) !important;
+padding: 2px !important;
+margin-right: 5px !important;
+}
+
+
+
+/* End Of Skills */
+
+
+/* Contact */
+
+.contact_info_item{
+font-size: 14px !important;
+color: #787878;
+line-height: 34px !important  ;
+}
+
+.contact_info_item > span{
+  color: black !important;
+  font-weight: 500;
+}
+
+/* End Of Contact */

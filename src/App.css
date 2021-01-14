@@ -27,5 +27,14 @@
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   margin-bottom: 20px;
-  padding: 30px;
+}
+
+
+.section{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.graybg{
+  background-color:  #fafafa !important;
 }

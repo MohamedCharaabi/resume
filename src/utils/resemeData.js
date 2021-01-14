@@ -1,6 +1,9 @@
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
+import SpeedIcon from '@material-ui/icons/Speed';
+import SmartphoneOutlinedIcon from '@material-ui/icons/SmartphoneOutlined';
 
 export const resumeData = {
     name: 'Mohamed Charaabi',
@@ -64,5 +67,64 @@ export const resumeData = {
             description: "Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.",
         },
     ],
+
+    services: [
+        {
+            title: "Web Development",
+            description: "I have been working on web design for 10 years.",
+            icon: <WebOutlinedIcon />,
+            
+        },
+        {
+            title: "Mobile Development",
+            description: "I have been working on web design for 10 years.",
+            icon: <SmartphoneOutlinedIcon />,
+        },
+        {
+            title: "Fast Delevry",
+            description: "I deliver your business as fast as possible.",
+            icon: <SpeedIcon /> ,
+        },
+        
+    ],
+
+    skills: [
+        {
+            title:"Front-End",
+            description: [
+                "ReactJs",
+                "JavaScript",
+                "Material-ui",
+                "Bootstrap"
+            ],
+        },
+        {
+            title:"Back-End",
+            description: [
+                "Node",
+                "JAVA",
+                "Python",
+                "PHP"
+            ],
+        },
+        {
+            title:"Databases",
+            description: [
+                "MySQL",
+                "Firebase",
+                "MongoDB",
+                "SQLite"
+            ],
+        },
+        {
+            title:"Source Control",
+            description: [
+                "Git",
+                "Github",
+                "SCRUM/Agil",
+                
+            ],
+        },
+    ]
 
 }
