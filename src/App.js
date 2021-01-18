@@ -7,6 +7,9 @@ import Header from './componnents/Header/Header'
 import Footer from './componnents/Footer/Footer'
 import Resume from './pages/Resume/Resume'
 import Portfolio from './pages/Portfolio/Portfolio'
+import Contact from './pages/Contact/Contact'
+
+import { Typing_video } from "./assets/Typing_video.mov";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -23,13 +26,16 @@ function App() {
 
             <div className="main-content container_shadow">
               <Switch>
-
+              <Route path="/contact">
+                  <Contact />
+                </Route>
                 <Route path="/portfolio">
                   <Portfolio />
                 </Route>
                 <Route path="/">
                   <Resume />
                 </Route>
+                
               </Switch>
 
             

@@ -4,6 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
 import SpeedIcon from '@material-ui/icons/Speed';
 import SmartphoneOutlinedIcon from '@material-ui/icons/SmartphoneOutlined';
+import { Facebook, GitHub, YouTube } from '@material-ui/icons';
 
 export const resumeData = {
     name: 'Mohamed Charaabi',
@@ -73,7 +74,7 @@ export const resumeData = {
             title: "Web Development",
             description: "I have been working on web design for 10 years.",
             icon: <WebOutlinedIcon />,
-            
+
         },
         {
             title: "Mobile Development",
@@ -83,14 +84,14 @@ export const resumeData = {
         {
             title: "Fast Delevry",
             description: "I deliver your business as fast as possible.",
-            icon: <SpeedIcon /> ,
+            icon: <SpeedIcon />,
         },
-        
+
     ],
 
     skills: [
         {
-            title:"Front-End",
+            title: "Front-End",
             description: [
                 "ReactJs",
                 "JavaScript",
@@ -99,7 +100,7 @@ export const resumeData = {
             ],
         },
         {
-            title:"Back-End",
+            title: "Back-End",
             description: [
                 "Node",
                 "JAVA",
@@ -108,7 +109,7 @@ export const resumeData = {
             ],
         },
         {
-            title:"Databases",
+            title: "Databases",
             description: [
                 "MySQL",
                 "Firebase",
@@ -117,14 +118,137 @@ export const resumeData = {
             ],
         },
         {
-            title:"Source Control",
+            title: "Source Control",
             description: [
                 "Git",
                 "Github",
                 "SCRUM/Agil",
-                
+
             ],
         },
+    ],
+
+    projects: [
+        {
+            tag: 'Web',
+            caption: 'short description',
+            description: 'This is my description for project',
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Netflix clone',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+        {
+            tag: 'Web',
+            description: 'This is my description for project',
+            caption: 'short description',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Resume',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+
+        {
+            tag: 'Web', description: 'This is my description for project',
+            caption: 'short description',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Social App',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+
+        {
+            tag: 'Web',
+            caption: 'short description',
+            description: 'This is my description for project',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Cartoon Image',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+        {
+            tag: 'Web',
+            description: 'This is my description for project',
+            caption: 'short description',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Youtube Downloader',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+
+        {
+            tag: 'Web',
+            description: 'This is my description for project',
+            caption: 'short description',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Memories',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+        
+        {
+            tag: 'Mobile',
+
+            description: 'This is my description for project',
+
+            caption: 'short description',
+
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Quiz App',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+
+        {
+            tag: 'Mobile',
+            description: 'This is my description for project',
+            caption: 'short description',
+            image: 'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2020/08/Netflix-background-cover.jpg',
+            title: 'Ecommerce App',
+            links: [
+                { link: 'https://google.com', icon: <YouTube /> },
+                { link: 'https://google.com', icon: <GitHub /> },
+                { link: 'https://google.com', icon: <Facebook /> },
+
+            ]
+        },
+
+
+
+
     ]
 
 }

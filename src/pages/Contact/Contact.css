@@ -1,0 +1,14 @@
+/* Contact */
+
+.contact_info_item{
+    font-size: 14px !important;
+    color: #787878;
+    line-height: 34px !important  ;
+    }
+    
+    .contact_info_item > span{
+      color: black !important;
+      font-weight: 500;
+    }
+    
+    /* End Of Contact */
